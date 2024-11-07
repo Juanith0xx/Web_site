@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+
+section{
+  color: #fff;
+  text-shadow: 3px 3px rgba(50,50,70,0.5);
+  background-color: #1f1f1f;
+  height: 100vh;
+}
+
+.navbg{
+  background-color: #7952b3;
+  
+}
+
+.container{
+  padding: 10px;
+  text-align: center;
+}
+
+.footer {
+  background-color: var(--terracota-color);
+  color: #1f1f1f;
+  text-align: center;
+  font-weight: var(--font-semi);
+  padding: 2rem 0;
+}
+.footer__title {
+  font-size: 2rem;
+  margin-bottom: var(--mb-4);
+}
+.footer__social {
+  margin-bottom: var(--mb-4);
+}
+.footer__icon {
+  font-size: 1.5rem;
+  color: #1f1f1f;
+  margin: 0 var(--mb-2);
+}
+.footer__copy {
+  font-size: var(--smaller-font-size);
+}
+
+.footer__contact{
+  margin-bottom: var(--mb-4);
+  text-align: center;
+}
