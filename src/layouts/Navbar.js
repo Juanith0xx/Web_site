@@ -7,7 +7,7 @@ const NavBarExample = () => {
     <>  
     <Navbar className="navbg" variant="dark" expand="lg">
       <Container className="container">
-        <Navbar.Brand as={Link} to="/">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand as={Link} to="/">Logo de empresa</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="link">

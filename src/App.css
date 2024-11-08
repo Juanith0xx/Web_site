@@ -1,42 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 section{
   color: #fff;
   text-shadow: 3px 3px rgba(50,50,70,0.5);
@@ -44,40 +5,98 @@ section{
   height: 100vh;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Estilos de Navbar*/
 .navbg{
-  background-color: #7952b3;
-  
+  background-color: #007bff;
+  border-radius: 5px;
+}
+
+.navbar-dark .navbar-brand,
+.navbar-dark .nav-link {
+    color: white !important;
+    font-size: 18px;
+    font-family: "Faculty Glyphic", sans-serif;
+}
+
+/* Cambiar el color del texto al pasar el mouse */
+.navbar-dark .nav-link:hover {
+    color: #0C6291 !important;
 }
 
 .container{
-  padding: 10px;
+  padding: 12px;
   text-align: center;
 }
 
+
+/* footer */
+
+/* Estilo global para asegurar que el footer esté al final */
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Contenedor principal para el contenido */
+.main-content {
+  flex: 1;
+}
+
+/* Estilo para el footer */
 .footer {
-  background-color: var(--terracota-color);
-  color: #1f1f1f;
+  background-color: #007bff;
+  color: #fff;
   text-align: center;
-  font-weight: var(--font-semi);
-  padding: 2rem 0;
-}
-.footer__title {
-  font-size: 2rem;
-  margin-bottom: var(--mb-4);
-}
-.footer__social {
-  margin-bottom: var(--mb-4);
-}
-.footer__icon {
-  font-size: 1.5rem;
-  color: #1f1f1f;
-  margin: 0 var(--mb-2);
-}
-.footer__copy {
-  font-size: var(--smaller-font-size);
+  padding: 20px;
+  font-size: 18px;
+  font-family: "Faculty Glyphic", sans-serif;
+  border-radius: 5px;
 }
 
-.footer__contact{
-  margin-bottom: var(--mb-4);
-  text-align: center;
+/* Iconos de redes sociales */
+.footer__social {
+  margin: 10px 0;
 }
+
+.home__social-icon {
+  margin: 0 10px;
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+/* Efecto hover en los iconos */
+.home__social-icon:hover {
+  color: #007bff; /* Cambia el color aquí si lo prefieres */
+}
+
+/* estilo Card product*/
+
+h1{
+  margin: 50px;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.card{
+  width: 300px;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  border-radius: 5px; 
+}
+.contact{
+
+  
+}
+

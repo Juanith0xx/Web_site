@@ -14,7 +14,7 @@ const Footer = () => {
             </a>
             <a href="mailto:juan.estay.rodriguez@icloud.com" className="home__social-icon">
                 <i className='bx bx-mail-send'></i>
-            </a>
+            </a>           
         </div>
         <p className="footer__copy">&#169; Juan Estay Rodriguez. All rights reserved</p>
             </footer>
