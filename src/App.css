@@ -10,12 +10,12 @@ html, body {
   margin: 0;
   display: flex;
   flex-direction: column;
+  
 }
 
 /* Estilos de Navbar*/
 .navbg{
   background-color: #007bff;
-  border-radius: 5px;
 }
 
 .navbar-dark .navbar-brand,
@@ -23,6 +23,7 @@ html, body {
     color: white !important;
     font-size: 18px;
     font-family: "Faculty Glyphic", sans-serif;
+    
 }
 
 /* Cambiar el color del texto al pasar el mouse */
@@ -38,46 +39,33 @@ html, body {
 
 /* footer */
 
-/* Estilo global para asegurar que el footer esté al final */
-html, body {
-  height: 100%;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-}
-
-/* Contenedor principal para el contenido */
-.main-content {
-  flex: 1;
-}
-
-/* Estilo para el footer */
-.footer {
+.site-footer {
   background-color: #007bff;
   color: #fff;
+  padding: 14px;
   text-align: center;
-  padding: 20px;
-  font-size: 18px;
+  font-size: 14px;
   font-family: "Faculty Glyphic", sans-serif;
-  border-radius: 5px;
+  text-align: left;
 }
 
-/* Iconos de redes sociales */
-.footer__social {
-  margin: 10px 0;
+.footer-info, .footer-links, .footer-social {
+  margin-bottom: 15px;
 }
 
-.home__social-icon {
-  margin: 0 10px;
+.footer-links a, .footer-social a {
   color: #fff;
-  font-size: 24px;
+  margin: 0 8px;
   text-decoration: none;
-  transition: color 0.3s;
+  font-size: 30px; 
 }
 
-/* Efecto hover en los iconos */
-.home__social-icon:hover {
-  color: #007bff; /* Cambia el color aquí si lo prefieres */
+.footer-links a:hover, .footer-social a:hover {
+  text-decoration: underline;
+}
+
+.footer-copyright {
+  font-size: 12px;
 }
 
 /* estilo Card product*/

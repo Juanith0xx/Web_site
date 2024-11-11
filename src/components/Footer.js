@@ -3,23 +3,28 @@ import React from 'react'
 const Footer = () => {
   return (
 
-        <footer className="footer">
-        <p className="footer__title">Juan Estay R.</p>
-        <div className="footer__social">
-            <a href="https://www.linkedin.com/in/juan-ignacio-estay-rodr%C3%ADguez-736b7667/" className="home__social-icon">
-                <i className='bx bxl-linkedin'></i>
-            </a>
-            <a href="https://github.com/Juanith0xx" className="home__social-icon">
-                <i className='bx bxl-github'></i>
-            </a>
-            <a href="mailto:juan.estay.rodriguez@icloud.com" className="home__social-icon">
-                <i className='bx bx-mail-send'></i>
-            </a>           
-        </div>
-        <p className="footer__copy">&#169; Juan Estay Rodriguez. All rights reserved</p>
-            </footer>
-
-  )
+    <footer className="site-footer">
+    <div className="footer-info">
+      <h5>Nombre de la empresa</h5>
+      <p>Dirección: Calle Falsa 123, Santiago, Chile</p>
+      <p>Teléfono: +123 456 7890 |  Email: contacto@detallesbaeza.com</p>
+    </div>
+    <div className="footer-social">
+      <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+      <i className="fab fa-facebook"></i>
+      </a>
+      <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
+      <i className="fab fa-whatsapp"></i>
+      </a>
+      <a href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+      <i className="fab fa-instagram"></i>
+      </a>
+    </div>
+    <div className="footer-copyright">
+      <p>© 2024 nombre de la empresa. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+);
 }
 
-export default Footer
+export default Footer;
