@@ -95,8 +95,20 @@ h1{
   display: flex;
   border-radius: 5px; 
 }
+/* Contacto */
 .contact{
 
-  
+  margin: 10px;
+  padding-top: 5px;
+}
+
+.contact .form-group {
+  margin-bottom: 100px;
+}
+
+.button {
+
+margin-top: 20px;
+margin-bottom: 50px;
 }
 
