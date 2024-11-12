@@ -1,93 +1,101 @@
-section{
+/* Bloque: Section */
+section {
   color: #fff;
-  text-shadow: 3px 3px rgba(50,50,70,0.5);
+  text-shadow: 3px 3px rgba(50, 50, 70, 0.5);
   background-color: #1f1f1f;
   height: 100vh;
 }
 
-html, body {
+/* Bloque: Layout */
+html,
+body {
   height: 100%;
   margin: 0;
   display: flex;
   flex-direction: column;
-  
+  font-family: "Sour Gummy", sans-serif;
 }
 
-/* Estilos de Navbar*/
-.navbg{
+/* Bloque: Navbar */
+.navbg {
   background-color: #007bff;
 }
 
 .navbar-dark .navbar-brand,
 .navbar-dark .nav-link {
-    color: white !important;
-    font-size: 18px;
-    font-family: "Faculty Glyphic", sans-serif;
-    
+  color: white !important;
+  font-size: 18px;
+  font-family: "Sour Gummy", sans-serif;
 }
 
-/* Cambiar el color del texto al pasar el mouse */
 .navbar-dark .nav-link:hover {
-    color: #0C6291 !important;
+  color: #0C6291 !important;
 }
 
-.container{
+/* Bloque: Container */
+.container {
   padding: 12px;
   text-align: center;
 }
 
-
-/* footer */
-
+/* Bloque: Footer */
 .site-footer {
   background-color: #007bff;
   color: #fff;
   padding: 14px;
   text-align: center;
   font-size: 14px;
-  font-family: "Faculty Glyphic", sans-serif;
+  font-family: "Sour Gummy", sans-serif;
   text-align: left;
 }
 
-.footer-info, .footer-links, .footer-social {
+.footer-info,
+.footer-links,
+.footer-social {
   margin-bottom: 15px;
 }
 
-.footer-links a, .footer-social a {
+.footer-links a,
+.footer-social a {
   color: #fff;
   margin: 0 8px;
   text-decoration: none;
-  font-size: 30px; 
+  font-size: 30px;
 }
 
-.footer-links a:hover, .footer-social a:hover {
+.footer-links a:hover,
+.footer-social a:hover {
   text-decoration: underline;
+  font-family: "Sour Gummy", sans-serif;
 }
 
 .footer-copyright {
   font-size: 12px;
+  font-family: "Sour Gummy", sans-serif;  
 }
 
-/* estilo Card product*/
-
-h1{
+/* Bloque: Card Product */
+h1 {
   margin: 50px;
   padding: 10px;
-  font-size: 18px;
+  font-size: 14px;
+  font-family: "Sour Gummy", sans-serif;
 }
 
-.card{
+.card {
   width: 300px;
   padding: 20px;
   margin: 20px;
   display: flex;
-  border-radius: 5px; 
+  border-radius: 5px;
+  font-family: "Sour Gummy", sans-serif;
 }
-/* Contacto */
-.contact{
 
+/* Bloque: Contacto */
+.contact {
   margin: 10px;
   padding-top: 5px;
+  font-family: "Sour Gummy", sans-serif;
 }
 
 .contact .form-group {
@@ -95,8 +103,7 @@ h1{
 }
 
 .button {
-
-margin-top: 20px;
-margin-bottom: 50px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 

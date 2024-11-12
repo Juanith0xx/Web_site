@@ -22,7 +22,7 @@ function ContactForm() {
   return (
     <Form className='contact' onSubmit={handleSubmit}>
       <Form.Group controlId="formName" style={{ marginBottom: '10px' }}>
-        <Form.Label>Nombre</Form.Label>
+        <Form.Label><b>Nombre</b></Form.Label>
         <Form.Control
           type="text"
           name="name"
@@ -33,7 +33,7 @@ function ContactForm() {
       </Form.Group>
       
       <Form.Group controlId="formEmail" style={{ marginBottom: '10px' }}>
-        <Form.Label>Email</Form.Label>
+        <Form.Label><b>Email</b></Form.Label>
         <Form.Control
           type="email"
           name="email"
@@ -44,7 +44,7 @@ function ContactForm() {
       </Form.Group>
 
       <Form.Group controlId="formMessage">
-        <Form.Label>Mensaje</Form.Label>
+        <Form.Label><b>Mensaje</b></Form.Label>
         <Form.Control
           as="textarea"
           rows={3}

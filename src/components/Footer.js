@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="footer-info">
       <h5>Nombre de la empresa</h5>
       <p>Dirección: Calle Falsa 123, Santiago, Chile</p>
-      <p>Teléfono: +123 456 7890 |  Email: contacto@detallesbaeza.com</p>
+      <p>Teléfono: +123 456 7890 |  Email: xxxxx@xxxxx.com</p>
     </div>
     <div className="footer-social">
       <a href="https://facebook.com" target="_blank" rel="noopener noreferrer">
